@@ -13,6 +13,29 @@ body {
 .main2 {
     flex:1;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+
+.team-greeting {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+ul {
+    list-style: none;
+}
+
+.team {
+    display: flex;
+    justify-content:center;
+    gap:20px;
+}
+
+img {
+    border-radius: 25px;
 }
 
 .main3 {
