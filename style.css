@@ -1,0 +1,36 @@
+body {
+    display:flexbox;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-family: ;
+}
+
+.main1 {
+    flex:1;
+    padding: 10px;
+}
+
+.main2 {
+    flex:1;
+    padding: 10px;
+}
+
+.main3 {
+    flex:1;
+    padding: 30px;
+}
+
+.main4 {
+    flex:1;
+    margin-bottom: auto;
+    padding: 30px;
+}
+
+.footer {
+    
+    font-size: 10px;
+    text-align:center;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
