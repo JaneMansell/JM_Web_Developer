@@ -55,7 +55,29 @@ img {
 .main4 {
     flex:1;
     margin-bottom: auto;
-    padding: 30px;
+    padding: 40px 80px;
+}
+
+.blue-box{
+    padding:30px 60px;
+    background-color: #0aa9f3;
+    color: white;
+    font-weight: bold;
+    display:flex;
+    justify-content: space-between;
+}
+
+.subtext {
+    font-weight: lighter;
+    font-size: 60%;
+}
+
+.signup {
+    background-color: #0aa9f3;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-color: white;
 }
 
 .footer {
