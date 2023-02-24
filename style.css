@@ -2,12 +2,67 @@ body {
     display:flexbox;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    font-family: ;
 }
 
 .main1 {
     flex:1;
-    padding: 10px;
+    padding: 10px 90px 30px;
+    color:white;
+    background-color: #1f2937;
+    display:flex;
+    flex-direction:column;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+}
+
+.header-title {
+    font-family: 'Zeyada', cursive, sans-serif;
+    font-size: 48px;
+}
+
+.header-links {
+    display:flex;
+    gap: 10px;
+}
+
+.main1-content{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main1-subtext, .header-links {
+    color:#a3b6db;
+}
+
+.main1-left {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.main1-title {
+    font-size: 150%;
+    text-align: ;
+}
+
+.main1-subtext {
+    margin-bottom: auto;
+}
+
+.main1-left button {
+    align-self: flex-start;
+}
+
+.main1 .main1-photo {
+    max-width: 200px;
+    height: auto;
+    flex: 1;
+    border-radius: 0;
 }
 
 .main2 {
